@@ -1,0 +1,104 @@
+/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -Dvisualvm.id=18445381796195 -javaagent:/opt/idea-IU-221.5591.52/lib/idea_rt.jar=34687:/opt/idea-IU-221.5591.52/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar:/home/adi/Documents/projects/SnakesAndLadders/target/classes:/home/adi/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/home/adi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar:/home/adi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.0/jackson-annotations-2.17.0.jar:/home/adi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.0/jackson-core-2.17.0.jar:/home/adi/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar org.example.Main
+9
+62 5
+33 6
+49 9
+88 16
+41 20
+56 53
+98 64
+93 73
+95 75
+8
+2 37
+27 46
+10 32
+51 68
+61 79
+65 84
+71 91
+81 100
+4Gaurav 1
+Sagar 1
+Aditya 1
+Amulya 1
+40
+16
+9
+3
+4
+24
+82
+97
+76
+4
+Gaurav 1
+Sagar 1
+Aditya 1
+Amulya 1
+Gaurav rolled a 5 and moves from 1 -> 6
+Sagar rolled a 10 and moves from 1 -> 11
+Aditya rolled a 7 and moves from 1 -> 8
+Amulya rolled a 6 and moves from 1 -> 7
+Gaurav rolled a 4 and climbed the ladder at 10 and moves from 6 -> 32
+Sagar rolled a 8 and moves from 11 -> 19
+Aditya rolled a 6 and moves from 8 -> 14
+Amulya rolled a 7 and moves from 7 -> 14
+Aditya getting moved to one due to collision
+Gaurav rolled a 9 and bitten by snake at 41 and moves from 32 -> 20
+Sagar rolled a 6 and moves from 19 -> 25
+Aditya rolled a 5 and moves from 1 -> 6
+Amulya rolled a 7 and moves from 14 -> 21
+Gaurav rolled a 3 and moves from 20 -> 23
+Sagar rolled a 7 and moves from 25 -> 32
+Aditya rolled a 4 and climbed the ladder at 10 and moves from 6 -> 32
+Sagar getting moved to one due to collision
+Amulya rolled a 10 and moves from 21 -> 31
+Gaurav rolled a 8 and moves from 23 -> 31
+Amulya getting moved to one due to collision
+Sagar rolled a 8 and bitten by crocodile at 9 and moves from 1 -> 4
+Aditya rolled a 3 and moves from 32 -> 35
+Amulya rolled a 9 and climbed the ladder at 10 and moves from 1 -> 32
+Gaurav rolled a 10 and bitten by snake at 41 and moves from 31 -> 20
+Sagar rolled a 11 and moves from 4 -> 15
+Aditya rolled a 7 and moves from 35 -> 42
+Amulya rolled a 8 and bitten by crocodile at 40 and moves from 32 -> 35
+Gaurav rolled a 11 and moves from 20 -> 31
+Sagar rolled a 8 and moves from 15 -> 23
+Aditya rolled a 6 and moves from 42 -> 48
+Amulya rolled a 5 and bitten by crocodile at 40 and moves from 35 -> 35
+Gaurav rolled a 2 and bitten by snake at 33 and moves from 31 -> 6
+Sagar rolled a 7 and moves from 23 -> 30
+Aditya rolled a 7 and moves from 48 -> 55
+Amulya rolled a 5 and bitten by crocodile at 40 and moves from 35 -> 35
+Gaurav rolled a 8 and moves from 6 -> 14
+Sagar rolled a 8 and moves from 30 -> 38
+Aditya rolled a 9 and moves from 55 -> 64
+Amulya rolled a 7 and moves from 35 -> 42
+Gaurav rolled a 7 and moves from 14 -> 21
+Sagar rolled a 9 and moves from 38 -> 47
+Aditya rolled a 6 and moves from 64 -> 70
+Amulya rolled a 5 and moves from 42 -> 47
+Sagar getting moved to one due to collision
+Gaurav rolled a 5 and moves from 21 -> 26
+Sagar rolled a 6 and moves from 1 -> 7
+Aditya rolled a 5 and moves from 70 -> 75
+Amulya rolled a 7 and moves from 47 -> 54
+Gaurav rolled a 6 and moves from 26 -> 32
+Sagar rolled a 4 and moves from 7 -> 11
+Aditya rolled a 11 and moves from 75 -> 86
+Amulya rolled a 7 and climbed the ladder at 61 and moves from 54 -> 79
+Gaurav rolled a 5 and moves from 32 -> 37
+Sagar rolled a 9 and moves from 11 -> 20
+Aditya rolled a 6 and moves from 86 -> 92
+Amulya rolled a 10 and moves from 79 -> 89
+Gaurav rolled a 5 and moves from 37 -> 42
+Sagar rolled a 6 and moves from 20 -> 26
+Aditya rolled a 4 and moves from 92 -> 96
+Amulya rolled a 10 and moves from 89 -> 99
+Gaurav rolled a 5 and moves from 42 -> 47
+Sagar rolled a 2 and moves from 26 -> 28
+Aditya rolled a 11 and moves from 96 -> 100
+Aditya is the winner
+
+Process finished with exit code 0

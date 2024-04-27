@@ -1,0 +1,8 @@
+players: 2
+boardSize:
+  length: 10
+  width: 10
+snakes: 9
+ladders: 8
+dies: 2
+ms: SUM
