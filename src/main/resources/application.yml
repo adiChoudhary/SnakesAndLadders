@@ -4,5 +4,7 @@ boardSize:
   width: 10
 snakes: 9
 ladders: 8
+crocodiles: 4
+mines: 4
 dies: 2
 ms: SUM

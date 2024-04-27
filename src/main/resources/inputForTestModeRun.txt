@@ -33,219 +33,45 @@ Sagar 1
 Aditya 1
 Amulya 1
 Y
-Enter dice roll for Gaurav:
 12
-
-TURN 1
-Gaurav rolled a 12 and moves from 1 -> 13
-Enter dice roll for Sagar:
 12
-
-TURN 2
-Sagar rolled a 12 and moves from 1 -> 13
-Gaurav getting moved to one due to collision
-Enter dice roll for Aditya:
 12
-
-TURN 3
-Aditya rolled a 12 and moves from 1 -> 13
-Sagar getting moved to one due to collision
-Enter dice roll for Amulya:
 12
-
-TURN 4
-Amulya rolled a 12 and moves from 1 -> 13
-Aditya getting moved to one due to collision
-Enter dice roll for Gaurav:
 11
-
-TURN 5
-Gaurav rolled a 11 and moves from 1 -> 12
-Enter dice roll for Sagar:
 5
-
-TURN 6
-Sagar rolled a 5 and moves from 1 -> 6
-Enter dice roll for Aditya:
 2
-
-TURN 7
-Aditya rolled a 2 and bitten by crocodile at 3 and moves from 1 -> 1
-Enter dice roll for Amulya:
 7
-
-TURN 8
-Amulya rolled a 7 and moves from 13 -> 20
-Enter dice roll for Gaurav:
 4
-
-TURN 9
-Gaurav rolled a 4 and bitten by crocodile at 16 and moves from 12 -> 11
-Enter dice roll for Sagar:
 8
-
-TURN 10
-Sagar rolled a 8 and moves from 6 -> 14
-Enter dice roll for Aditya:
 5
-
-TURN 11
-Aditya rolled a 5 and moves from 1 -> 6
-Enter dice roll for Amulya:
 9
-
-TURN 12
-Amulya rolled a 9 and moves from 20 -> 29
-Enter dice roll for Gaurav:
 10
-
-TURN 13
-Gaurav rolled a 10 and moves from 11 -> 21
-Enter dice roll for Sagar:
 11
-
-TURN 14
-Sagar rolled a 11 and moves from 14 -> 25
-Enter dice roll for Aditya:
 10
-
-TURN 15
-Aditya rolled a 10 and bitten by crocodile at 16 and moves from 6 -> 11
-Enter dice roll for Amulya:
 11
-
-TURN 16
-Amulya rolled a 11 and bitten by crocodile at 40 and moves from 29 -> 35
-Enter dice roll for Gaurav:
 12
-
-TURN 17
-Gaurav rolled a 12 and bitten by snake at 33 and moves from 21 -> 6
-Enter dice roll for Sagar:
 10
-
-TURN 18
-Sagar rolled a 10 and moves from 25 -> 35
-Amulya getting moved to one due to collision
-Enter dice roll for Aditya:
 11
-
-TURN 19
-Aditya rolled a 11 and moves from 11 -> 22
-Enter dice roll for Amulya:
 12
-
-TURN 20
-Amulya rolled a 12 and moves from 1 -> 13
-Enter dice roll for Gaurav:
 10
-
-TURN 21
-Gaurav rolled a 10 and bitten by crocodile at 16 and moves from 6 -> 11
-Enter dice roll for Sagar:
 11
-
-TURN 22
-Sagar rolled a 11 and moves from 35 -> 46
-Enter dice roll for Aditya:
 12
-
-TURN 23
-Aditya rolled a 12 and moves from 22 -> 34
-Enter dice roll for Amulya:
 10
-
-TURN 24
-Amulya rolled a 10 and moves from 13 -> 23
-Enter dice roll for Gaurav:
 11
-
-TURN 25
-Gaurav rolled a 11 and moves from 11 -> 22
-Enter dice roll for Sagar:
 12
-
-TURN 26
-Sagar rolled a 12 and moves from 46 -> 58
-Enter dice roll for Aditya:
 10
-
-TURN 27
-Aditya rolled a 10 and moves from 34 -> 44
-Enter dice roll for Amulya:
 11
-
-TURN 28
-Amulya rolled a 11 and moves from 23 -> 34
-Enter dice roll for Gaurav:
 12
-
-TURN 29
-Gaurav rolled a 12 and moves from 22 -> 34
-Amulya getting moved to one due to collision
-Enter dice roll for Sagar:
 10
-
-TURN 30
-Sagar rolled a 10 and moves from 58 -> 68
-Enter dice roll for Aditya:
 11
-
-TURN 31
-Aditya rolled a 11 and moves from 44 -> 55
-Enter dice roll for Amulya:
 12
-
-TURN 32
-Amulya rolled a 12 and moves from 1 -> 13
-Enter dice roll for Gaurav:
 10
-
-TURN 33
-Gaurav rolled a 10 and moves from 34 -> 44
-Enter dice roll for Sagar:
 11
-
-TURN 34
-Sagar rolled a 11 and moves from 68 -> 79
-Enter dice roll for Aditya:
 12
-
-TURN 35
-Aditya rolled a 12 and moves from 55 -> 67
-Enter dice roll for Amulya:
 10
-
-TURN 36
-Amulya rolled a 10 and moves from 13 -> 23
-Enter dice roll for Gaurav:
 11
-
-TURN 37
-Gaurav rolled a 11 and moves from 44 -> 55
-Enter dice roll for Sagar:
 12
-
-TURN 38
-Sagar rolled a 12 and moves from 79 -> 91
-Enter dice roll for Aditya:
 10
-
-TURN 39
-Aditya rolled a 10 and moves from 67 -> 77
-Enter dice roll for Amulya:
 11
-
-TURN 40
-Amulya rolled a 11 and moves from 23 -> 34
-Enter dice roll for Gaurav:
 12
-
-TURN 41
-Gaurav rolled a 12 and moves from 55 -> 67
-Enter dice roll for Sagar:
 10
-
-TURN 42
-Sagar rolled a 10 and moves from 91 -> 100
-Sagar is the winner

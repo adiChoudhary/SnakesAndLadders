@@ -17,12 +17,15 @@ public class ConfigurationFactory {
     }
 
     public static Configuration configuration;
-    public static void initializeConfiguration() throws FileNotFoundException {
-        // Load config
-        Yaml yaml = new Yaml();
-        objectMapper = initializeObjectMapper();
-        FileInputStream inputStream = new FileInputStream("class");
-        Map<String, Object> obj = yaml.load(inputStream);
-        Configuration configuration = objectMapper.convertValue(obj, Configuration.class);
+    public static void initializeConfiguration() {
+        try {
+            Yaml yaml = new Yaml();
+            objectMapper = initializeObjectMapper();
+            FileInputStream inputStream = new FileInputStream("src/main/resources/application.yml");
+            Map<String, Object> obj = yaml.load(inputStream);
+            configuration = objectMapper.convertValue(obj, Configuration.class);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }

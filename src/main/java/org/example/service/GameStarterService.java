@@ -1,5 +1,7 @@
 package org.example.service;
 
+import org.example.configuration.Configuration;
+import org.example.configuration.ConfigurationFactory;
 import org.example.models.*;
 
 import java.util.ArrayList;
@@ -7,6 +9,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class GameStarterService {
+    private static final Configuration configuration = ConfigurationFactory.configuration;
     public static void startGame(){
         Scanner sc = new Scanner(System.in);
         int noOfSnakes = sc.nextInt();
@@ -41,7 +44,7 @@ public class GameStarterService {
         for (int i = 0; i < noOfPlayers; i++) {
             players.add(new Players(sc.next(), sc.nextInt(), 0));
         }
-        Board board = new Board(100, snakes, ladders, crocodiles, mines);
+        Board board = new Board(configuration.getBoardSize().getLength() * configuration.getBoardSize().getWidth(), snakes, ladders, crocodiles, mines);
         SnakeAndLadderDriver snakeAndLadderDriver = new SnakeAndLadderDriver(board, players);
 
         // Perform simulation or test

@@ -1,5 +1,6 @@
 package org.example.service;
 
+import org.example.configuration.ConfigurationFactory;
 import org.example.enums.MovementStrategy;
 import org.example.models.Board;
 import org.example.models.Players;
@@ -8,13 +9,13 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class SnakeAndLadderDriver {
-    private Board board;
-    private Map<Integer, List<Players>> playersMap;
-    private Deque<Players> playersQueue;
+    private final Board board;
+    private final Map<Integer, List<Players>> playersMap;
+    private final Deque<Players> playersQueue;
     private int turn = 0;
     private static final boolean PLAY_TILL_ONE_WINNER = true;
-    private int dices = 2;
-    private final MovementStrategy ms = MovementStrategy.SUM;
+    private final int dices = ConfigurationFactory.configuration.getDies();
+    private final MovementStrategy ms = ConfigurationFactory.configuration.getMs();
 
     public SnakeAndLadderDriver(Board board, List<Players> players){
         this.board = board;
@@ -100,7 +101,7 @@ public class SnakeAndLadderDriver {
             if(finalLocation != 1 && !playersMap.getOrDefault(finalLocation, new ArrayList<>()).isEmpty()){
                 // Move existing players on that location to 1
                 List<Players> players = playersMap.getOrDefault(finalLocation, new ArrayList<>());
-                String names = players.stream().map(Players::getName).collect(Collectors.joining(" "));;
+                String names = players.stream().map(Players::getName).collect(Collectors.joining(" "));
                 System.out.println(names + " getting moved to one due to collision");
                 players.forEach(this::removePlayerFromMap);
                 players.forEach(e -> {
