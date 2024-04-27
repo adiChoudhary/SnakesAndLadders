@@ -17,9 +17,9 @@
   * Supply dice roll value for each turn till a winning condition is encountered.
 
 ## Assumptions
-* Board size supplied via application.yml
-* Number of dices supplied via application.yml
-* Movement strategy supplied via application.yml
+* Board size supplied via `application.yml`
+* Number of dices supplied via `application.yml`
+* Movement strategy supplied via `application.yml`
 * Snakes, Ladders, Mines and Crocodile don't collide with each other's start location
 * Simulation is executed until one of the users win the game
 
@@ -28,4 +28,5 @@
 * Sample Input file for test mode in **src/main/resources/inputForTestModeRun.txt**
 * Sample Input file + Output for test mode in **src/main/resources/inputForTestModeWithOutputRun.txt**
 * Sample Simulation Output file in **"src/main/resources/Simulation.txt"**
+* **Note:** both input and output will be in terminal
 

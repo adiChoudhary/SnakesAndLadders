@@ -131,23 +131,19 @@ public class SnakeAndLadderDriver {
             boolean isOnMineMap = board.getMineMap().containsKey(location);
             onAnEntity = isOnSnake || isOnLadder || isOnCrocodile || isOnMineMap;
             if(isOnSnake){
-                System.out.printf("and bitten by snake at %d ", location);
-                location = board.getSnakesMap().get(location);
+                location = getPlayerFinalLocationHelper("and bitten by snake at %d ", location, board.getSnakesMap());
                 continue;
             }
             if(isOnLadder){
-                System.out.printf("and climbed the ladder at %d ", location);
-                location = board.getLadderMap().get(location);
+                location = getPlayerFinalLocationHelper("and climbed the ladder at %d ", location, board.getLadderMap());
                 continue;
             }
             if(isOnCrocodile){
-                System.out.printf("and bitten by crocodile at %d ", location);
-                location = board.getCrocodileMap().get(location);
+                location = getPlayerFinalLocationHelper("and bitten by crocodile at %d ", location, board.getCrocodileMap());
                 continue;
             }
             if(isOnMineMap){
-                System.out.printf("and landed on mine at %d ", location);
-                int turnsToHold = board.getMineMap().get(location);
+                int turnsToHold = getPlayerFinalLocationHelper("and landed on mine at %d ", location, board.getMineMap());
                 if(player.getHoldTillTurn() == 0){
                     player.setHoldTillTurn(turnsToHold);
                 }
@@ -155,5 +151,10 @@ public class SnakeAndLadderDriver {
             }
         } while (onAnEntity);
         return location;
+    }
+
+    private static int getPlayerFinalLocationHelper(String str, int location, Map<Integer, Integer> mp){
+        System.out.printf(str, location);
+        return mp.get(location);
     }
 }
