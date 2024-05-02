@@ -12,16 +12,18 @@
 * N no of players
 * Following N lines contains names & starting locations of each Player
 * Is Test Mode T(Y/N)
-* If Test Mode N, simulation is executed
-* If Test Mode Y
-  * Supply dice roll value for each turn till a winning condition is encountered.
+  * If Test Mode N, simulation is executed
+  * If Test Mode Y
+    * Supply dice roll value for each turn till game ends.
 
 ## Assumptions
 * Board size supplied via `application.yml`
 * Number of dices supplied via `application.yml`
 * Movement strategy supplied via `application.yml`
 * Snakes, Ladders, Mines and Crocodile don't collide with each other's start location
-* Simulation is executed until one of the users win the game
+* Simulation is executed depending on `playTillOneWinner`
+  * If true, simulation ends when we get 1 winner
+  * If false, game runs until all players complete the game.
 
 ## Sample input and output
 * Sample Input file for simulation in **"src/main/resources/input.txt"**
