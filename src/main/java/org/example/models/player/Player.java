@@ -1,13 +1,11 @@
-package org.example.models;
+package org.example.models.player;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-import java.util.UUID;
-
 @Data
 @AllArgsConstructor
-public class Players {
+public class Player {
     private String name;
     private int location;
     private int holdTillTurn;

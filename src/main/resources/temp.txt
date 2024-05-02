@@ -1,0 +1,861 @@
+/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin/java -Dvisualvm.id=10495422133580 -javaagent:/opt/idea-IU-221.5591.52/lib/idea_rt.jar=44767:/opt/idea-IU-221.5591.52/bin -Dfile.encoding=UTF-8 -classpath /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/cldrdata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/icedtea-sound.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/jaccess.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/nashorn.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunjce_provider.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/management-agent.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar:/home/adi/Documents/projects/SnakesAndLadders/target/classes:/home/adi/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/home/adi/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.0/jackson-databind-2.17.0.jar:/home/adi/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.0/jackson-annotations-2.17.0.jar:/home/adi/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.0/jackson-core-2.17.0.jar:/home/adi/.m2/repository/net/bytebuddy/byte-buddy/1.14.9/byte-buddy-1.14.9.jar:/home/adi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.2/junit-jupiter-engine-5.5.2.jar:/home/adi/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/adi/.m2/repository/org/junit/platform/junit-platform-engine/1.5.2/junit-platform-engine-1.5.2.jar:/home/adi/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/adi/.m2/repository/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar:/home/adi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.jar org.example.Main
+9
+62 5
+33 6
+49 9
+88 16
+41 20
+56 53
+98 64
+93 73
+95 75
+8
+2 37
+27 46
+10 32
+51 68
+61 79
+65 84
+71 91
+81 100
+4
+40
+16
+9
+3
+4
+24
+82
+97
+76
+4
+Gaurav 1
+Sagar 1
+Aditya 1
+Amulya 1
+N
+[Player(name=Gaurav, location=1, holdTillTurn=0), Player(name=Sagar, location=1, holdTillTurn=0), Player(name=Aditya, location=1, holdTillTurn=0), Player(name=Amulya, location=1, holdTillTurn=0)]
+
+TURN 1
+Gaurav:
+Gaurav rolled a 7 and moves from 1 -> 8
+[Player(name=Sagar, location=1, holdTillTurn=0), Player(name=Aditya, location=1, holdTillTurn=0), Player(name=Amulya, location=1, holdTillTurn=0), Player(name=Gaurav, location=8, holdTillTurn=0)]
+
+TURN 2
+Sagar:
+Sagar rolled a 5 and moves from 1 -> 6
+[Player(name=Aditya, location=1, holdTillTurn=0), Player(name=Amulya, location=1, holdTillTurn=0), Player(name=Gaurav, location=8, holdTillTurn=0), Player(name=Sagar, location=6, holdTillTurn=0)]
+
+TURN 3
+Aditya:
+Aditya rolled a 3 and moves from 1 -> 4
+[Player(name=Amulya, location=1, holdTillTurn=0), Player(name=Gaurav, location=8, holdTillTurn=0), Player(name=Sagar, location=6, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0)]
+
+TURN 4
+Amulya:
+Amulya rolled a 11 and moves from 1 -> 12
+[Player(name=Gaurav, location=8, holdTillTurn=0), Player(name=Sagar, location=6, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Amulya, location=12, holdTillTurn=0)]
+
+TURN 5
+Gaurav:
+Gaurav rolled a 7 and moves from 8 -> 15
+[Player(name=Sagar, location=6, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Amulya, location=12, holdTillTurn=0), Player(name=Gaurav, location=15, holdTillTurn=0)]
+
+TURN 6
+Sagar:
+Sagar rolled a 8 and moves from 6 -> 14
+[Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Amulya, location=12, holdTillTurn=0), Player(name=Gaurav, location=15, holdTillTurn=0), Player(name=Sagar, location=14, holdTillTurn=0)]
+
+TURN 7
+Aditya:
+Aditya rolled a 3 and moves from 4 -> 7
+[Player(name=Amulya, location=12, holdTillTurn=0), Player(name=Gaurav, location=15, holdTillTurn=0), Player(name=Sagar, location=14, holdTillTurn=0), Player(name=Aditya, location=7, holdTillTurn=0)]
+
+TURN 8
+Amulya:
+Amulya rolled a 6 and moves from 12 -> 18
+[Player(name=Gaurav, location=15, holdTillTurn=0), Player(name=Sagar, location=14, holdTillTurn=0), Player(name=Aditya, location=7, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0)]
+
+TURN 9
+Gaurav:
+Gaurav rolled a 3 and moves from 15 -> 18
+Amulya getting moved to one due to collision
+[Player(name=Sagar, location=14, holdTillTurn=0), Player(name=Aditya, location=7, holdTillTurn=0), Player(name=Amulya, location=1, holdTillTurn=0), Player(name=Gaurav, location=18, holdTillTurn=0)]
+
+TURN 10
+Sagar:
+Sagar rolled a 8 and moves from 14 -> 22
+[Player(name=Aditya, location=7, holdTillTurn=0), Player(name=Amulya, location=1, holdTillTurn=0), Player(name=Gaurav, location=18, holdTillTurn=0), Player(name=Sagar, location=22, holdTillTurn=0)]
+
+TURN 11
+Aditya:
+Aditya rolled a 9 and bitten by crocodile at 16 and moves from 7 -> 11
+[Player(name=Amulya, location=1, holdTillTurn=0), Player(name=Gaurav, location=18, holdTillTurn=0), Player(name=Sagar, location=22, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0)]
+
+TURN 12
+Amulya:
+Amulya rolled a 7 and moves from 1 -> 8
+[Player(name=Gaurav, location=18, holdTillTurn=0), Player(name=Sagar, location=22, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0)]
+
+TURN 13
+Gaurav:
+Gaurav rolled a 8 and moves from 18 -> 26
+[Player(name=Sagar, location=22, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Gaurav, location=26, holdTillTurn=0)]
+
+TURN 14
+Sagar:
+Sagar rolled a 9 and moves from 22 -> 31
+[Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Gaurav, location=26, holdTillTurn=0), Player(name=Sagar, location=31, holdTillTurn=0)]
+
+TURN 15
+Aditya:
+Aditya rolled a 6 and moves from 11 -> 17
+[Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Gaurav, location=26, holdTillTurn=0), Player(name=Sagar, location=31, holdTillTurn=0), Player(name=Aditya, location=17, holdTillTurn=0)]
+
+TURN 16
+Amulya:
+Amulya rolled a 10 and moves from 8 -> 18
+[Player(name=Gaurav, location=26, holdTillTurn=0), Player(name=Sagar, location=31, holdTillTurn=0), Player(name=Aditya, location=17, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0)]
+
+TURN 17
+Gaurav:
+Gaurav rolled a 7 and bitten by snake at 33 and moves from 26 -> 6
+[Player(name=Sagar, location=31, holdTillTurn=0), Player(name=Aditya, location=17, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Gaurav, location=6, holdTillTurn=0)]
+
+TURN 18
+Sagar:
+Sagar rolled a 4 and moves from 31 -> 35
+[Player(name=Aditya, location=17, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Gaurav, location=6, holdTillTurn=0), Player(name=Sagar, location=35, holdTillTurn=0)]
+
+TURN 19
+Aditya:
+Aditya rolled a 7 and landed on mine at 24 and moves from 17 -> 17
+[Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Gaurav, location=6, holdTillTurn=0), Player(name=Sagar, location=35, holdTillTurn=0), Player(name=Aditya, location=17, holdTillTurn=2)]
+
+TURN 20
+Amulya:
+Amulya rolled a 10 and moves from 18 -> 28
+[Player(name=Gaurav, location=6, holdTillTurn=0), Player(name=Sagar, location=35, holdTillTurn=0), Player(name=Aditya, location=17, holdTillTurn=2), Player(name=Amulya, location=28, holdTillTurn=0)]
+
+TURN 21
+Gaurav:
+Gaurav rolled a 7 and moves from 6 -> 13
+[Player(name=Sagar, location=35, holdTillTurn=0), Player(name=Aditya, location=17, holdTillTurn=2), Player(name=Amulya, location=28, holdTillTurn=0), Player(name=Gaurav, location=13, holdTillTurn=0)]
+
+TURN 22
+Sagar:
+Sagar rolled a 7 and moves from 35 -> 42
+[Player(name=Aditya, location=17, holdTillTurn=2), Player(name=Amulya, location=28, holdTillTurn=0), Player(name=Gaurav, location=13, holdTillTurn=0), Player(name=Sagar, location=42, holdTillTurn=0)]
+
+TURN 23
+Aditya:
+Aditya waiting for 2 turns due to landing on mine
+[Player(name=Amulya, location=28, holdTillTurn=0), Player(name=Gaurav, location=13, holdTillTurn=0), Player(name=Sagar, location=42, holdTillTurn=0), Player(name=Aditya, location=17, holdTillTurn=1), Player(name=Aditya, location=17, holdTillTurn=1)]
+
+TURN 24
+Amulya:
+Amulya rolled a 5 and bitten by snake at 33 and moves from 28 -> 6
+[Player(name=Gaurav, location=13, holdTillTurn=0), Player(name=Sagar, location=42, holdTillTurn=0), Player(name=Aditya, location=17, holdTillTurn=1), Player(name=Aditya, location=17, holdTillTurn=1), Player(name=Amulya, location=6, holdTillTurn=0)]
+
+TURN 25
+Gaurav:
+Gaurav rolled a 11 and landed on mine at 24 and moves from 13 -> 13
+[Player(name=Sagar, location=42, holdTillTurn=0), Player(name=Aditya, location=17, holdTillTurn=1), Player(name=Aditya, location=17, holdTillTurn=1), Player(name=Amulya, location=6, holdTillTurn=0), Player(name=Gaurav, location=13, holdTillTurn=2)]
+
+TURN 26
+Sagar:
+Sagar rolled a 4 and moves from 42 -> 46
+[Player(name=Aditya, location=17, holdTillTurn=1), Player(name=Aditya, location=17, holdTillTurn=1), Player(name=Amulya, location=6, holdTillTurn=0), Player(name=Gaurav, location=13, holdTillTurn=2), Player(name=Sagar, location=46, holdTillTurn=0)]
+
+TURN 27
+Aditya:
+Aditya waiting for 1 turns due to landing on mine
+[Player(name=Aditya, location=17, holdTillTurn=0), Player(name=Amulya, location=6, holdTillTurn=0), Player(name=Gaurav, location=13, holdTillTurn=2), Player(name=Sagar, location=46, holdTillTurn=0), Player(name=Aditya, location=17, holdTillTurn=0), Player(name=Aditya, location=17, holdTillTurn=0)]
+
+TURN 28
+Aditya:
+Aditya rolled a 8 and moves from 17 -> 25
+[Player(name=Amulya, location=6, holdTillTurn=0), Player(name=Gaurav, location=13, holdTillTurn=2), Player(name=Sagar, location=46, holdTillTurn=0), Player(name=Aditya, location=25, holdTillTurn=0), Player(name=Aditya, location=25, holdTillTurn=0), Player(name=Aditya, location=25, holdTillTurn=0)]
+
+TURN 29
+Amulya:
+Amulya rolled a 7 and moves from 6 -> 13
+Gaurav getting moved to one due to collision
+[Player(name=Gaurav, location=1, holdTillTurn=2), Player(name=Sagar, location=46, holdTillTurn=0), Player(name=Aditya, location=25, holdTillTurn=0), Player(name=Aditya, location=25, holdTillTurn=0), Player(name=Aditya, location=25, holdTillTurn=0), Player(name=Amulya, location=13, holdTillTurn=0)]
+
+TURN 30
+Gaurav:
+Gaurav waiting for 2 turns due to landing on mine
+[Player(name=Sagar, location=46, holdTillTurn=0), Player(name=Aditya, location=25, holdTillTurn=0), Player(name=Aditya, location=25, holdTillTurn=0), Player(name=Aditya, location=25, holdTillTurn=0), Player(name=Amulya, location=13, holdTillTurn=0), Player(name=Gaurav, location=1, holdTillTurn=1), Player(name=Gaurav, location=1, holdTillTurn=1)]
+
+TURN 31
+Sagar:
+Sagar rolled a 4 and moves from 46 -> 50
+[Player(name=Aditya, location=25, holdTillTurn=0), Player(name=Aditya, location=25, holdTillTurn=0), Player(name=Aditya, location=25, holdTillTurn=0), Player(name=Amulya, location=13, holdTillTurn=0), Player(name=Gaurav, location=1, holdTillTurn=1), Player(name=Gaurav, location=1, holdTillTurn=1), Player(name=Sagar, location=50, holdTillTurn=0)]
+
+TURN 32
+Aditya:
+Aditya rolled a 8 and bitten by snake at 33 and moves from 25 -> 6
+[Player(name=Aditya, location=6, holdTillTurn=0), Player(name=Aditya, location=6, holdTillTurn=0), Player(name=Amulya, location=13, holdTillTurn=0), Player(name=Gaurav, location=1, holdTillTurn=1), Player(name=Gaurav, location=1, holdTillTurn=1), Player(name=Sagar, location=50, holdTillTurn=0), Player(name=Aditya, location=6, holdTillTurn=0)]
+
+TURN 33
+Aditya:
+Aditya rolled a 10 and bitten by crocodile at 16 and moves from 6 -> 11
+[Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Amulya, location=13, holdTillTurn=0), Player(name=Gaurav, location=1, holdTillTurn=1), Player(name=Gaurav, location=1, holdTillTurn=1), Player(name=Sagar, location=50, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0)]
+
+TURN 34
+Aditya:
+Aditya rolled a 5 and bitten by crocodile at 16 and moves from 11 -> 11
+[Player(name=Amulya, location=13, holdTillTurn=0), Player(name=Gaurav, location=1, holdTillTurn=1), Player(name=Gaurav, location=1, holdTillTurn=1), Player(name=Sagar, location=50, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0)]
+
+TURN 35
+Amulya:
+Amulya rolled a 2 and moves from 13 -> 15
+[Player(name=Gaurav, location=1, holdTillTurn=1), Player(name=Gaurav, location=1, holdTillTurn=1), Player(name=Sagar, location=50, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Amulya, location=15, holdTillTurn=0)]
+
+TURN 36
+Gaurav:
+Gaurav waiting for 1 turns due to landing on mine
+[Player(name=Gaurav, location=1, holdTillTurn=0), Player(name=Sagar, location=50, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Amulya, location=15, holdTillTurn=0), Player(name=Gaurav, location=1, holdTillTurn=0), Player(name=Gaurav, location=1, holdTillTurn=0)]
+
+TURN 37
+Gaurav:
+Gaurav rolled a 9 and climbed the ladder at 10 and moves from 1 -> 32
+[Player(name=Sagar, location=50, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Amulya, location=15, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0)]
+
+TURN 38
+Sagar:
+Sagar rolled a 9 and moves from 50 -> 59
+[Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Amulya, location=15, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Sagar, location=59, holdTillTurn=0)]
+
+TURN 39
+Aditya:
+Aditya rolled a 9 and moves from 11 -> 20
+[Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Amulya, location=15, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Sagar, location=59, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0)]
+
+TURN 40
+Aditya:
+Aditya rolled a 7 and climbed the ladder at 27 and moves from 20 -> 46
+[Player(name=Aditya, location=46, holdTillTurn=0), Player(name=Amulya, location=15, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Sagar, location=59, holdTillTurn=0), Player(name=Aditya, location=46, holdTillTurn=0), Player(name=Aditya, location=46, holdTillTurn=0)]
+
+TURN 41
+Aditya:
+Aditya rolled a 3 and bitten by snake at 49 and bitten by crocodile at 9 and moves from 46 -> 4
+[Player(name=Amulya, location=15, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Sagar, location=59, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0)]
+
+TURN 42
+Amulya:
+Amulya rolled a 6 and moves from 15 -> 21
+[Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Gaurav, location=32, holdTillTurn=0), Player(name=Sagar, location=59, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Amulya, location=21, holdTillTurn=0)]
+
+TURN 43
+Gaurav:
+Gaurav rolled a 3 and moves from 32 -> 35
+[Player(name=Gaurav, location=35, holdTillTurn=0), Player(name=Gaurav, location=35, holdTillTurn=0), Player(name=Sagar, location=59, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Amulya, location=21, holdTillTurn=0), Player(name=Gaurav, location=35, holdTillTurn=0)]
+
+TURN 44
+Gaurav:
+Gaurav rolled a 3 and moves from 35 -> 38
+[Player(name=Gaurav, location=38, holdTillTurn=0), Player(name=Sagar, location=59, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Amulya, location=21, holdTillTurn=0), Player(name=Gaurav, location=38, holdTillTurn=0), Player(name=Gaurav, location=38, holdTillTurn=0)]
+
+TURN 45
+Gaurav:
+Gaurav rolled a 7 and moves from 38 -> 45
+[Player(name=Sagar, location=59, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Amulya, location=21, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0)]
+
+TURN 46
+Sagar:
+Sagar rolled a 4 and moves from 59 -> 63
+[Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Aditya, location=4, holdTillTurn=0), Player(name=Amulya, location=21, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Sagar, location=63, holdTillTurn=0)]
+
+TURN 47
+Aditya:
+Aditya rolled a 7 and moves from 4 -> 11
+[Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Amulya, location=21, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Sagar, location=63, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0)]
+
+TURN 48
+Aditya:
+Aditya rolled a 9 and moves from 11 -> 20
+[Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Amulya, location=21, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Sagar, location=63, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0)]
+
+TURN 49
+Aditya:
+Aditya rolled a 9 and moves from 20 -> 29
+[Player(name=Amulya, location=21, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Sagar, location=63, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0)]
+
+TURN 50
+Amulya:
+Amulya rolled a 5 and moves from 21 -> 26
+[Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Sagar, location=63, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Amulya, location=26, holdTillTurn=0)]
+
+TURN 51
+Gaurav:
+Gaurav rolled a 4 and bitten by snake at 49 and bitten by crocodile at 9 and moves from 45 -> 4
+[Player(name=Gaurav, location=4, holdTillTurn=0), Player(name=Gaurav, location=4, holdTillTurn=0), Player(name=Sagar, location=63, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Amulya, location=26, holdTillTurn=0), Player(name=Gaurav, location=4, holdTillTurn=0)]
+
+TURN 52
+Gaurav:
+Gaurav rolled a 8 and moves from 4 -> 12
+[Player(name=Gaurav, location=12, holdTillTurn=0), Player(name=Sagar, location=63, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Amulya, location=26, holdTillTurn=0), Player(name=Gaurav, location=12, holdTillTurn=0), Player(name=Gaurav, location=12, holdTillTurn=0)]
+
+TURN 53
+Gaurav:
+Gaurav rolled a 8 and moves from 12 -> 20
+[Player(name=Sagar, location=63, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Amulya, location=26, holdTillTurn=0), Player(name=Gaurav, location=20, holdTillTurn=0), Player(name=Gaurav, location=20, holdTillTurn=0), Player(name=Gaurav, location=20, holdTillTurn=0)]
+
+TURN 54
+Sagar:
+Sagar rolled a 5 and moves from 63 -> 68
+[Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Aditya, location=29, holdTillTurn=0), Player(name=Amulya, location=26, holdTillTurn=0), Player(name=Gaurav, location=20, holdTillTurn=0), Player(name=Gaurav, location=20, holdTillTurn=0), Player(name=Gaurav, location=20, holdTillTurn=0), Player(name=Sagar, location=68, holdTillTurn=0)]
+
+TURN 55
+Aditya:
+Aditya rolled a 4 and bitten by snake at 33 and moves from 29 -> 6
+[Player(name=Aditya, location=6, holdTillTurn=0), Player(name=Aditya, location=6, holdTillTurn=0), Player(name=Amulya, location=26, holdTillTurn=0), Player(name=Gaurav, location=20, holdTillTurn=0), Player(name=Gaurav, location=20, holdTillTurn=0), Player(name=Gaurav, location=20, holdTillTurn=0), Player(name=Sagar, location=68, holdTillTurn=0), Player(name=Aditya, location=6, holdTillTurn=0)]
+
+TURN 56
+Aditya:
+Aditya rolled a 10 and bitten by crocodile at 16 and moves from 6 -> 11
+[Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Amulya, location=26, holdTillTurn=0), Player(name=Gaurav, location=20, holdTillTurn=0), Player(name=Gaurav, location=20, holdTillTurn=0), Player(name=Gaurav, location=20, holdTillTurn=0), Player(name=Sagar, location=68, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0), Player(name=Aditya, location=11, holdTillTurn=0)]
+
+TURN 57
+Aditya:
+Aditya rolled a 9 and moves from 11 -> 20
+Gaurav getting moved to one due to collision
+[Player(name=Amulya, location=26, holdTillTurn=0), Player(name=Gaurav, location=1, holdTillTurn=0), Player(name=Gaurav, location=1, holdTillTurn=0), Player(name=Gaurav, location=1, holdTillTurn=0), Player(name=Sagar, location=68, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0)]
+
+TURN 58
+Amulya:
+Amulya rolled a 9 and moves from 26 -> 35
+[Player(name=Gaurav, location=1, holdTillTurn=0), Player(name=Gaurav, location=1, holdTillTurn=0), Player(name=Gaurav, location=1, holdTillTurn=0), Player(name=Sagar, location=68, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Amulya, location=35, holdTillTurn=0)]
+
+TURN 59
+Gaurav:
+Gaurav rolled a 4 and moves from 1 -> 5
+[Player(name=Gaurav, location=5, holdTillTurn=0), Player(name=Gaurav, location=5, holdTillTurn=0), Player(name=Sagar, location=68, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Amulya, location=35, holdTillTurn=0), Player(name=Gaurav, location=5, holdTillTurn=0)]
+
+TURN 60
+Gaurav:
+Gaurav rolled a 8 and moves from 5 -> 13
+[Player(name=Gaurav, location=13, holdTillTurn=0), Player(name=Sagar, location=68, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Amulya, location=35, holdTillTurn=0), Player(name=Gaurav, location=13, holdTillTurn=0), Player(name=Gaurav, location=13, holdTillTurn=0)]
+
+TURN 61
+Gaurav:
+Gaurav rolled a 6 and moves from 13 -> 19
+[Player(name=Sagar, location=68, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Amulya, location=35, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0)]
+
+TURN 62
+Sagar:
+Sagar rolled a 9 and moves from 68 -> 77
+[Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Amulya, location=35, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Sagar, location=77, holdTillTurn=0)]
+
+TURN 63
+Aditya:
+Aditya rolled a 4 and landed on mine at 24 and moves from 20 -> 20
+[Player(name=Aditya, location=20, holdTillTurn=2), Player(name=Aditya, location=20, holdTillTurn=2), Player(name=Amulya, location=35, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Sagar, location=77, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=2)]
+
+TURN 64
+Aditya:
+Aditya waiting for 2 turns due to landing on mine
+[Player(name=Aditya, location=20, holdTillTurn=1), Player(name=Amulya, location=35, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Sagar, location=77, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=1), Player(name=Aditya, location=20, holdTillTurn=1), Player(name=Aditya, location=20, holdTillTurn=1)]
+
+TURN 65
+Aditya:
+Aditya waiting for 1 turns due to landing on mine
+[Player(name=Amulya, location=35, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Sagar, location=77, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0)]
+
+TURN 66
+Amulya:
+Amulya rolled a 7 and moves from 35 -> 42
+[Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Sagar, location=77, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Amulya, location=42, holdTillTurn=0)]
+
+TURN 67
+Gaurav:
+Gaurav rolled a 5 and landed on mine at 24 and moves from 19 -> 19
+[Player(name=Gaurav, location=19, holdTillTurn=2), Player(name=Gaurav, location=19, holdTillTurn=2), Player(name=Sagar, location=77, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Amulya, location=42, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=2)]
+
+TURN 68
+Gaurav:
+Gaurav waiting for 2 turns due to landing on mine
+[Player(name=Gaurav, location=19, holdTillTurn=1), Player(name=Sagar, location=77, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Amulya, location=42, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=1), Player(name=Gaurav, location=19, holdTillTurn=1), Player(name=Gaurav, location=19, holdTillTurn=1)]
+
+TURN 69
+Gaurav:
+Gaurav waiting for 1 turns due to landing on mine
+[Player(name=Sagar, location=77, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Amulya, location=42, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0)]
+
+TURN 70
+Sagar:
+Sagar rolled a 8 and moves from 77 -> 85
+[Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Aditya, location=20, holdTillTurn=0), Player(name=Amulya, location=42, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Sagar, location=85, holdTillTurn=0)]
+
+TURN 71
+Aditya:
+Aditya rolled a 10 and moves from 20 -> 30
+[Player(name=Aditya, location=30, holdTillTurn=0), Player(name=Aditya, location=30, holdTillTurn=0), Player(name=Aditya, location=30, holdTillTurn=0), Player(name=Aditya, location=30, holdTillTurn=0), Player(name=Amulya, location=42, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Sagar, location=85, holdTillTurn=0), Player(name=Aditya, location=30, holdTillTurn=0)]
+
+TURN 72
+Aditya:
+Aditya rolled a 7 and moves from 30 -> 37
+[Player(name=Aditya, location=37, holdTillTurn=0), Player(name=Aditya, location=37, holdTillTurn=0), Player(name=Aditya, location=37, holdTillTurn=0), Player(name=Amulya, location=42, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Sagar, location=85, holdTillTurn=0), Player(name=Aditya, location=37, holdTillTurn=0), Player(name=Aditya, location=37, holdTillTurn=0)]
+
+TURN 73
+Aditya:
+Aditya rolled a 5 and moves from 37 -> 42
+Amulya getting moved to one due to collision
+[Player(name=Aditya, location=42, holdTillTurn=0), Player(name=Aditya, location=42, holdTillTurn=0), Player(name=Amulya, location=1, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Sagar, location=85, holdTillTurn=0), Player(name=Aditya, location=42, holdTillTurn=0), Player(name=Aditya, location=42, holdTillTurn=0), Player(name=Aditya, location=42, holdTillTurn=0)]
+
+TURN 74
+Aditya:
+Aditya rolled a 10 and moves from 42 -> 52
+[Player(name=Aditya, location=52, holdTillTurn=0), Player(name=Amulya, location=1, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Sagar, location=85, holdTillTurn=0), Player(name=Aditya, location=52, holdTillTurn=0), Player(name=Aditya, location=52, holdTillTurn=0), Player(name=Aditya, location=52, holdTillTurn=0), Player(name=Aditya, location=52, holdTillTurn=0)]
+
+TURN 75
+Aditya:
+Aditya rolled a 7 and moves from 52 -> 59
+[Player(name=Amulya, location=1, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Sagar, location=85, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0)]
+
+TURN 76
+Amulya:
+Amulya rolled a 7 and moves from 1 -> 8
+[Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Gaurav, location=19, holdTillTurn=0), Player(name=Sagar, location=85, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0)]
+
+TURN 77
+Gaurav:
+Gaurav rolled a 12 and moves from 19 -> 31
+[Player(name=Gaurav, location=31, holdTillTurn=0), Player(name=Gaurav, location=31, holdTillTurn=0), Player(name=Gaurav, location=31, holdTillTurn=0), Player(name=Gaurav, location=31, holdTillTurn=0), Player(name=Sagar, location=85, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Gaurav, location=31, holdTillTurn=0)]
+
+TURN 78
+Gaurav:
+Gaurav rolled a 4 and moves from 31 -> 35
+[Player(name=Gaurav, location=35, holdTillTurn=0), Player(name=Gaurav, location=35, holdTillTurn=0), Player(name=Gaurav, location=35, holdTillTurn=0), Player(name=Sagar, location=85, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Gaurav, location=35, holdTillTurn=0), Player(name=Gaurav, location=35, holdTillTurn=0)]
+
+TURN 79
+Gaurav:
+Gaurav rolled a 10 and moves from 35 -> 45
+[Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Sagar, location=85, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0), Player(name=Gaurav, location=45, holdTillTurn=0)]
+
+TURN 80
+Gaurav:
+Gaurav rolled a 7 and moves from 45 -> 52
+[Player(name=Gaurav, location=52, holdTillTurn=0), Player(name=Sagar, location=85, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Gaurav, location=52, holdTillTurn=0), Player(name=Gaurav, location=52, holdTillTurn=0), Player(name=Gaurav, location=52, holdTillTurn=0), Player(name=Gaurav, location=52, holdTillTurn=0)]
+
+TURN 81
+Gaurav:
+Gaurav rolled a 6 and moves from 52 -> 58
+[Player(name=Sagar, location=85, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0)]
+
+TURN 82
+Sagar:
+Sagar rolled a 9 and moves from 85 -> 94
+[Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Aditya, location=59, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Sagar, location=94, holdTillTurn=0)]
+
+TURN 83
+Aditya:
+Aditya rolled a 9 and moves from 59 -> 68
+[Player(name=Aditya, location=68, holdTillTurn=0), Player(name=Aditya, location=68, holdTillTurn=0), Player(name=Aditya, location=68, holdTillTurn=0), Player(name=Aditya, location=68, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Sagar, location=94, holdTillTurn=0), Player(name=Aditya, location=68, holdTillTurn=0)]
+
+TURN 84
+Aditya:
+Aditya rolled a 2 and moves from 68 -> 70
+[Player(name=Aditya, location=70, holdTillTurn=0), Player(name=Aditya, location=70, holdTillTurn=0), Player(name=Aditya, location=70, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Sagar, location=94, holdTillTurn=0), Player(name=Aditya, location=70, holdTillTurn=0), Player(name=Aditya, location=70, holdTillTurn=0)]
+
+TURN 85
+Aditya:
+Aditya rolled a 5 and moves from 70 -> 75
+[Player(name=Aditya, location=75, holdTillTurn=0), Player(name=Aditya, location=75, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Sagar, location=94, holdTillTurn=0), Player(name=Aditya, location=75, holdTillTurn=0), Player(name=Aditya, location=75, holdTillTurn=0), Player(name=Aditya, location=75, holdTillTurn=0)]
+
+TURN 86
+Aditya:
+Aditya rolled a 9 and moves from 75 -> 84
+[Player(name=Aditya, location=84, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Sagar, location=94, holdTillTurn=0), Player(name=Aditya, location=84, holdTillTurn=0), Player(name=Aditya, location=84, holdTillTurn=0), Player(name=Aditya, location=84, holdTillTurn=0), Player(name=Aditya, location=84, holdTillTurn=0)]
+
+TURN 87
+Aditya:
+Aditya rolled a 5 and moves from 84 -> 89
+[Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Sagar, location=94, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0)]
+
+TURN 88
+Amulya:
+Amulya rolled a 10 and moves from 8 -> 18
+[Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Gaurav, location=58, holdTillTurn=0), Player(name=Sagar, location=94, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0)]
+
+TURN 89
+Gaurav:
+Gaurav rolled a 7 and climbed the ladder at 65 and moves from 58 -> 84
+[Player(name=Gaurav, location=84, holdTillTurn=0), Player(name=Gaurav, location=84, holdTillTurn=0), Player(name=Gaurav, location=84, holdTillTurn=0), Player(name=Gaurav, location=84, holdTillTurn=0), Player(name=Sagar, location=94, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Gaurav, location=84, holdTillTurn=0)]
+
+TURN 90
+Gaurav:
+Gaurav rolled a 7 and moves from 84 -> 91
+[Player(name=Gaurav, location=91, holdTillTurn=0), Player(name=Gaurav, location=91, holdTillTurn=0), Player(name=Gaurav, location=91, holdTillTurn=0), Player(name=Sagar, location=94, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Gaurav, location=91, holdTillTurn=0), Player(name=Gaurav, location=91, holdTillTurn=0)]
+
+TURN 91
+Gaurav:
+Gaurav rolled a 3 and moves from 91 -> 94
+Sagar getting moved to one due to collision
+[Player(name=Gaurav, location=94, holdTillTurn=0), Player(name=Gaurav, location=94, holdTillTurn=0), Player(name=Sagar, location=1, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Gaurav, location=94, holdTillTurn=0), Player(name=Gaurav, location=94, holdTillTurn=0), Player(name=Gaurav, location=94, holdTillTurn=0)]
+
+TURN 92
+Gaurav:
+Gaurav rolled a 9 and moves from 94 -> 100
+[Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Sagar, location=1, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0)]
+
+TURN 93
+Gaurav:
+Gaurav rolled a 11 and moves from 100 -> 100
+[Player(name=Sagar, location=1, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0)]
+
+TURN 94
+Sagar:
+Sagar rolled a 6 and moves from 1 -> 7
+[Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Aditya, location=89, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Sagar, location=7, holdTillTurn=0)]
+
+TURN 95
+Aditya:
+Aditya rolled a 5 and moves from 89 -> 94
+[Player(name=Aditya, location=94, holdTillTurn=0), Player(name=Aditya, location=94, holdTillTurn=0), Player(name=Aditya, location=94, holdTillTurn=0), Player(name=Aditya, location=94, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Sagar, location=7, holdTillTurn=0), Player(name=Aditya, location=94, holdTillTurn=0)]
+
+TURN 96
+Aditya:
+Aditya rolled a 7 and moves from 94 -> 100
+[Player(name=Aditya, location=100, holdTillTurn=0), Player(name=Aditya, location=100, holdTillTurn=0), Player(name=Aditya, location=100, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Sagar, location=7, holdTillTurn=0), Player(name=Aditya, location=100, holdTillTurn=0)]
+
+TURN 97
+Aditya:
+Aditya rolled a 7 and moves from 100 -> 100
+[Player(name=Aditya, location=100, holdTillTurn=0), Player(name=Aditya, location=100, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Sagar, location=7, holdTillTurn=0), Player(name=Aditya, location=100, holdTillTurn=0)]
+
+TURN 98
+Aditya:
+Aditya rolled a 10 and moves from 100 -> 100
+[Player(name=Aditya, location=100, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Sagar, location=7, holdTillTurn=0), Player(name=Aditya, location=100, holdTillTurn=0)]
+
+TURN 99
+Aditya:
+Aditya rolled a 5 and moves from 100 -> 100
+[Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Sagar, location=7, holdTillTurn=0), Player(name=Aditya, location=100, holdTillTurn=0)]
+
+TURN 100
+Amulya:
+Amulya rolled a 11 and moves from 18 -> 29
+[Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Sagar, location=7, holdTillTurn=0), Player(name=Aditya, location=100, holdTillTurn=0), Player(name=Amulya, location=29, holdTillTurn=0)]
+
+TURN 101
+Gaurav:
+Gaurav rolled a 9 and moves from 100 -> 100
+[Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Sagar, location=7, holdTillTurn=0), Player(name=Aditya, location=100, holdTillTurn=0), Player(name=Amulya, location=29, holdTillTurn=0)]
+
+TURN 102
+Gaurav:
+Gaurav rolled a 4 and moves from 100 -> 100
+[Player(name=Gaurav, location=100, holdTillTurn=0), Player(name=Sagar, location=7, holdTillTurn=0), Player(name=Aditya, location=100, holdTillTurn=0), Player(name=Amulya, location=29, holdTillTurn=0)]
+
+TURN 103
+Gaurav:
+Gaurav rolled a 9 and moves from 100 -> 100
+[Player(name=Sagar, location=7, holdTillTurn=0), Player(name=Aditya, location=100, holdTillTurn=0), Player(name=Amulya, location=29, holdTillTurn=0)]
+
+TURN 104
+Sagar:
+Sagar rolled a 7 and moves from 7 -> 14
+[Player(name=Aditya, location=100, holdTillTurn=0), Player(name=Amulya, location=29, holdTillTurn=0), Player(name=Sagar, location=14, holdTillTurn=0)]
+
+TURN 105
+Aditya:
+Aditya rolled a 5 and moves from 100 -> 100
+[Player(name=Amulya, location=29, holdTillTurn=0), Player(name=Sagar, location=14, holdTillTurn=0)]
+
+TURN 106
+Amulya:
+Amulya rolled a 9 and moves from 29 -> 38
+[Player(name=Sagar, location=14, holdTillTurn=0), Player(name=Amulya, location=38, holdTillTurn=0)]
+
+TURN 107
+Sagar:
+Sagar rolled a 11 and moves from 14 -> 25
+[Player(name=Amulya, location=38, holdTillTurn=0), Player(name=Sagar, location=25, holdTillTurn=0)]
+
+TURN 108
+Amulya:
+Amulya rolled a 6 and moves from 38 -> 44
+[Player(name=Sagar, location=25, holdTillTurn=0), Player(name=Amulya, location=44, holdTillTurn=0)]
+
+TURN 109
+Sagar:
+Sagar rolled a 9 and moves from 25 -> 34
+[Player(name=Amulya, location=44, holdTillTurn=0), Player(name=Sagar, location=34, holdTillTurn=0)]
+
+TURN 110
+Amulya:
+Amulya rolled a 5 and bitten by snake at 49 and bitten by crocodile at 9 and moves from 44 -> 4
+[Player(name=Sagar, location=34, holdTillTurn=0), Player(name=Amulya, location=4, holdTillTurn=0)]
+
+TURN 111
+Sagar:
+Sagar rolled a 10 and moves from 34 -> 44
+[Player(name=Amulya, location=4, holdTillTurn=0), Player(name=Sagar, location=44, holdTillTurn=0)]
+
+TURN 112
+Amulya:
+Amulya rolled a 6 and climbed the ladder at 10 and moves from 4 -> 32
+[Player(name=Sagar, location=44, holdTillTurn=0), Player(name=Amulya, location=32, holdTillTurn=0)]
+
+TURN 113
+Sagar:
+Sagar rolled a 8 and moves from 44 -> 52
+[Player(name=Amulya, location=32, holdTillTurn=0), Player(name=Sagar, location=52, holdTillTurn=0)]
+
+TURN 114
+Amulya:
+Amulya rolled a 7 and moves from 32 -> 39
+[Player(name=Sagar, location=52, holdTillTurn=0), Player(name=Amulya, location=39, holdTillTurn=0)]
+
+TURN 115
+Sagar:
+Sagar rolled a 3 and moves from 52 -> 55
+[Player(name=Amulya, location=39, holdTillTurn=0), Player(name=Sagar, location=55, holdTillTurn=0)]
+
+TURN 116
+Amulya:
+Amulya rolled a 10 and bitten by snake at 49 and bitten by crocodile at 9 and moves from 39 -> 4
+[Player(name=Sagar, location=55, holdTillTurn=0), Player(name=Amulya, location=4, holdTillTurn=0)]
+
+TURN 117
+Sagar:
+Sagar rolled a 7 and bitten by snake at 62 and moves from 55 -> 5
+[Player(name=Amulya, location=4, holdTillTurn=0), Player(name=Sagar, location=5, holdTillTurn=0)]
+
+TURN 118
+Amulya:
+Amulya rolled a 8 and moves from 4 -> 12
+[Player(name=Sagar, location=5, holdTillTurn=0), Player(name=Amulya, location=12, holdTillTurn=0)]
+
+TURN 119
+Sagar:
+Sagar rolled a 8 and moves from 5 -> 13
+[Player(name=Amulya, location=12, holdTillTurn=0), Player(name=Sagar, location=13, holdTillTurn=0)]
+
+TURN 120
+Amulya:
+Amulya rolled a 6 and moves from 12 -> 18
+[Player(name=Sagar, location=13, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0)]
+
+TURN 121
+Sagar:
+Sagar rolled a 6 and moves from 13 -> 19
+[Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Sagar, location=19, holdTillTurn=0)]
+
+TURN 122
+Amulya:
+Amulya rolled a 10 and moves from 18 -> 28
+[Player(name=Sagar, location=19, holdTillTurn=0), Player(name=Amulya, location=28, holdTillTurn=0)]
+
+TURN 123
+Sagar:
+Sagar rolled a 6 and moves from 19 -> 25
+[Player(name=Amulya, location=28, holdTillTurn=0), Player(name=Sagar, location=25, holdTillTurn=0)]
+
+TURN 124
+Amulya:
+Amulya rolled a 6 and moves from 28 -> 34
+[Player(name=Sagar, location=25, holdTillTurn=0), Player(name=Amulya, location=34, holdTillTurn=0)]
+
+TURN 125
+Sagar:
+Sagar rolled a 4 and moves from 25 -> 29
+[Player(name=Amulya, location=34, holdTillTurn=0), Player(name=Sagar, location=29, holdTillTurn=0)]
+
+TURN 126
+Amulya:
+Amulya rolled a 4 and moves from 34 -> 38
+[Player(name=Sagar, location=29, holdTillTurn=0), Player(name=Amulya, location=38, holdTillTurn=0)]
+
+TURN 127
+Sagar:
+Sagar rolled a 9 and moves from 29 -> 38
+Amulya getting moved to one due to collision
+[Player(name=Amulya, location=1, holdTillTurn=0), Player(name=Sagar, location=38, holdTillTurn=0)]
+
+TURN 128
+Amulya:
+Amulya rolled a 7 and moves from 1 -> 8
+[Player(name=Sagar, location=38, holdTillTurn=0), Player(name=Amulya, location=8, holdTillTurn=0)]
+
+TURN 129
+Sagar:
+Sagar rolled a 6 and moves from 38 -> 44
+[Player(name=Amulya, location=8, holdTillTurn=0), Player(name=Sagar, location=44, holdTillTurn=0)]
+
+TURN 130
+Amulya:
+Amulya rolled a 10 and moves from 8 -> 18
+[Player(name=Sagar, location=44, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0)]
+
+TURN 131
+Sagar:
+Sagar rolled a 7 and climbed the ladder at 51 and moves from 44 -> 68
+[Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Sagar, location=68, holdTillTurn=0)]
+
+TURN 132
+Amulya:
+Amulya rolled a 6 and landed on mine at 24 and moves from 18 -> 18
+[Player(name=Sagar, location=68, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=2)]
+
+TURN 133
+Sagar:
+Sagar rolled a 12 and moves from 68 -> 80
+[Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Sagar, location=80, holdTillTurn=0)]
+
+TURN 134
+Amulya:
+Amulya waiting for 2 turns due to landing on mine
+[Player(name=Sagar, location=80, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=1), Player(name=Amulya, location=18, holdTillTurn=1)]
+
+TURN 135
+Sagar:
+Sagar rolled a 7 and moves from 80 -> 87
+[Player(name=Amulya, location=18, holdTillTurn=1), Player(name=Amulya, location=18, holdTillTurn=1), Player(name=Sagar, location=87, holdTillTurn=0)]
+
+TURN 136
+Amulya:
+Amulya waiting for 1 turns due to landing on mine
+[Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Sagar, location=87, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0)]
+
+TURN 137
+Amulya:
+Amulya rolled a 6 and landed on mine at 24 and moves from 18 -> 18
+[Player(name=Sagar, location=87, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Amulya, location=18, holdTillTurn=2)]
+
+TURN 138
+Sagar:
+Sagar rolled a 8 and bitten by snake at 95 and moves from 87 -> 75
+[Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Sagar, location=75, holdTillTurn=0)]
+
+TURN 139
+Amulya:
+Amulya waiting for 2 turns due to landing on mine
+[Player(name=Amulya, location=18, holdTillTurn=1), Player(name=Amulya, location=18, holdTillTurn=1), Player(name=Sagar, location=75, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=1), Player(name=Amulya, location=18, holdTillTurn=1)]
+
+TURN 140
+Amulya:
+Amulya waiting for 1 turns due to landing on mine
+[Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Sagar, location=75, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0)]
+
+TURN 141
+Amulya:
+Amulya rolled a 6 and landed on mine at 24 and moves from 18 -> 18
+[Player(name=Sagar, location=75, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Amulya, location=18, holdTillTurn=2)]
+
+TURN 142
+Sagar:
+Sagar rolled a 5 and moves from 75 -> 80
+[Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Amulya, location=18, holdTillTurn=2), Player(name=Sagar, location=80, holdTillTurn=0)]
+
+TURN 143
+Amulya:
+Amulya waiting for 2 turns due to landing on mine
+[Player(name=Amulya, location=18, holdTillTurn=1), Player(name=Amulya, location=18, holdTillTurn=1), Player(name=Amulya, location=18, holdTillTurn=1), Player(name=Amulya, location=18, holdTillTurn=1), Player(name=Sagar, location=80, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=1), Player(name=Amulya, location=18, holdTillTurn=1)]
+
+TURN 144
+Amulya:
+Amulya waiting for 1 turns due to landing on mine
+[Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Sagar, location=80, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0), Player(name=Amulya, location=18, holdTillTurn=0)]
+
+TURN 145
+Amulya:
+Amulya rolled a 5 and moves from 18 -> 23
+[Player(name=Amulya, location=23, holdTillTurn=0), Player(name=Amulya, location=23, holdTillTurn=0), Player(name=Sagar, location=80, holdTillTurn=0), Player(name=Amulya, location=23, holdTillTurn=0), Player(name=Amulya, location=23, holdTillTurn=0), Player(name=Amulya, location=23, holdTillTurn=0), Player(name=Amulya, location=23, holdTillTurn=0), Player(name=Amulya, location=23, holdTillTurn=0)]
+
+TURN 146
+Amulya:
+Amulya rolled a 4 and climbed the ladder at 27 and moves from 23 -> 46
+[Player(name=Amulya, location=46, holdTillTurn=0), Player(name=Sagar, location=80, holdTillTurn=0), Player(name=Amulya, location=46, holdTillTurn=0), Player(name=Amulya, location=46, holdTillTurn=0), Player(name=Amulya, location=46, holdTillTurn=0), Player(name=Amulya, location=46, holdTillTurn=0), Player(name=Amulya, location=46, holdTillTurn=0), Player(name=Amulya, location=46, holdTillTurn=0)]
+
+TURN 147
+Amulya:
+Amulya rolled a 6 and moves from 46 -> 52
+[Player(name=Sagar, location=80, holdTillTurn=0), Player(name=Amulya, location=52, holdTillTurn=0), Player(name=Amulya, location=52, holdTillTurn=0), Player(name=Amulya, location=52, holdTillTurn=0), Player(name=Amulya, location=52, holdTillTurn=0), Player(name=Amulya, location=52, holdTillTurn=0), Player(name=Amulya, location=52, holdTillTurn=0), Player(name=Amulya, location=52, holdTillTurn=0)]
+
+TURN 148
+Sagar:
+Sagar rolled a 6 and moves from 80 -> 86
+[Player(name=Amulya, location=52, holdTillTurn=0), Player(name=Amulya, location=52, holdTillTurn=0), Player(name=Amulya, location=52, holdTillTurn=0), Player(name=Amulya, location=52, holdTillTurn=0), Player(name=Amulya, location=52, holdTillTurn=0), Player(name=Amulya, location=52, holdTillTurn=0), Player(name=Amulya, location=52, holdTillTurn=0), Player(name=Sagar, location=86, holdTillTurn=0)]
+
+TURN 149
+Amulya:
+Amulya rolled a 9 and climbed the ladder at 61 and moves from 52 -> 79
+[Player(name=Amulya, location=79, holdTillTurn=0), Player(name=Amulya, location=79, holdTillTurn=0), Player(name=Amulya, location=79, holdTillTurn=0), Player(name=Amulya, location=79, holdTillTurn=0), Player(name=Amulya, location=79, holdTillTurn=0), Player(name=Amulya, location=79, holdTillTurn=0), Player(name=Sagar, location=86, holdTillTurn=0), Player(name=Amulya, location=79, holdTillTurn=0)]
+
+TURN 150
+Amulya:
+Amulya rolled a 12 and moves from 79 -> 91
+[Player(name=Amulya, location=91, holdTillTurn=0), Player(name=Amulya, location=91, holdTillTurn=0), Player(name=Amulya, location=91, holdTillTurn=0), Player(name=Amulya, location=91, holdTillTurn=0), Player(name=Amulya, location=91, holdTillTurn=0), Player(name=Sagar, location=86, holdTillTurn=0), Player(name=Amulya, location=91, holdTillTurn=0), Player(name=Amulya, location=91, holdTillTurn=0)]
+
+TURN 151
+Amulya:
+Amulya rolled a 5 and moves from 91 -> 96
+[Player(name=Amulya, location=96, holdTillTurn=0), Player(name=Amulya, location=96, holdTillTurn=0), Player(name=Amulya, location=96, holdTillTurn=0), Player(name=Amulya, location=96, holdTillTurn=0), Player(name=Sagar, location=86, holdTillTurn=0), Player(name=Amulya, location=96, holdTillTurn=0), Player(name=Amulya, location=96, holdTillTurn=0), Player(name=Amulya, location=96, holdTillTurn=0)]
+
+TURN 152
+Amulya:
+Amulya rolled a 8 and moves from 96 -> 100
+[Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Sagar, location=86, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0)]
+
+TURN 153
+Amulya:
+Amulya rolled a 10 and moves from 100 -> 100
+[Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Sagar, location=86, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0)]
+
+TURN 154
+Amulya:
+Amulya rolled a 9 and moves from 100 -> 100
+[Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Sagar, location=86, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0)]
+
+TURN 155
+Amulya:
+Amulya rolled a 6 and moves from 100 -> 100
+[Player(name=Sagar, location=86, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0)]
+
+TURN 156
+Sagar:
+Sagar rolled a 7 and bitten by snake at 93 and moves from 86 -> 73
+[Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Sagar, location=73, holdTillTurn=0)]
+
+TURN 157
+Amulya:
+Amulya rolled a 3 and moves from 100 -> 100
+[Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Sagar, location=73, holdTillTurn=0)]
+
+TURN 158
+Amulya:
+Amulya rolled a 9 and moves from 100 -> 100
+[Player(name=Amulya, location=100, holdTillTurn=0), Player(name=Sagar, location=73, holdTillTurn=0)]
+
+TURN 159
+Amulya:
+Amulya rolled a 9 and moves from 100 -> 100
+[Player(name=Sagar, location=73, holdTillTurn=0)]
+
+TURN 160
+Sagar:
+Sagar rolled a 6 and moves from 73 -> 79
+[Player(name=Sagar, location=79, holdTillTurn=0)]
+
+TURN 161
+Sagar:
+Sagar rolled a 10 and moves from 79 -> 89
+[Player(name=Sagar, location=89, holdTillTurn=0)]
+
+TURN 162
+Sagar:
+Sagar rolled a 7 and moves from 89 -> 96
+[Player(name=Sagar, location=96, holdTillTurn=0)]
+
+TURN 163
+Sagar:
+Sagar rolled a 6 and moves from 96 -> 100
+[]
+Game Ended
+
+Process finished with exit code 0

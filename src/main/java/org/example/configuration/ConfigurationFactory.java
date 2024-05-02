@@ -10,6 +10,7 @@ import java.util.Map;
 
 public class ConfigurationFactory {
     public static ObjectMapper objectMapper;
+
     public static ObjectMapper initializeObjectMapper() {
         ObjectMapper objectMapper = new ObjectMapper();
         objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
@@ -17,6 +18,7 @@ public class ConfigurationFactory {
     }
 
     public static Configuration configuration;
+
     public static void initializeConfiguration() {
         try {
             Yaml yaml = new Yaml();

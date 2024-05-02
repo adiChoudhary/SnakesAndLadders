@@ -2,7 +2,8 @@ package org.example.service;
 
 import org.example.configuration.Configuration;
 import org.example.configuration.ConfigurationFactory;
-import org.example.models.*;
+import org.example.models.boardAndPieces.*;
+import org.example.models.player.Player;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,36 +16,33 @@ public class GameStarterService {
         int noOfSnakes = sc.nextInt();
 
         // Initialize board elements
-        List<Snakes> snakes = new ArrayList<>();
+        List<Piece> pieces = new ArrayList<>();
         for (int i = 0; i < noOfSnakes; i++) {
-            snakes.add(new Snakes(sc.nextInt(), sc.nextInt()));
+            pieces.add(new Snake(sc.nextInt(), sc.nextInt()));
         }
 
         int noOfLadders = sc.nextInt();
-        List<Ladders> ladders = new ArrayList<>();
         for (int i = 0; i < noOfLadders; i++) {
-            ladders.add(new Ladders(sc.nextInt(), sc.nextInt()));
+            pieces.add(new Ladder(sc.nextInt(), sc.nextInt()));
         }
 
         int noOfCrocodiles = sc.nextInt();
-        List<Crocodile> crocodiles = new ArrayList<>();
         for (int i = 0; i < noOfCrocodiles; i++) {
-            crocodiles.add(new Crocodile(sc.nextInt()));
+            pieces.add(new Crocodile(sc.nextInt()));
         }
 
         int noOfMines = sc.nextInt();
-        List<Mine> mines = new ArrayList<>();
         for (int i = 0; i < noOfMines; i++) {
-            mines.add(new Mine(sc.nextInt()));
+            pieces.add(new Mine(sc.nextInt()));
         }
 
         // Initialize players
         int noOfPlayers = sc.nextInt();
-        List<Players> players = new ArrayList<>();
+        List<Player> players = new ArrayList<>();
         for (int i = 0; i < noOfPlayers; i++) {
-            players.add(new Players(sc.next(), sc.nextInt(), 0));
+            players.add(new Player(sc.next(), sc.nextInt(), 0));
         }
-        Board board = new Board(configuration.getBoardSize().getLength() * configuration.getBoardSize().getWidth(), snakes, ladders, crocodiles, mines);
+        Board board = new Board(configuration.getBoardSize().getLength() * configuration.getBoardSize().getWidth(), pieces);
         SnakeAndLadderDriver snakeAndLadderDriver = new SnakeAndLadderDriver(board, players);
 
         // Perform simulation or test

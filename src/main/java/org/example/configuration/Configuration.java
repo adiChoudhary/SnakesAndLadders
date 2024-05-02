@@ -2,7 +2,7 @@ package org.example.configuration;
 
 import lombok.Data;
 import org.example.enums.MovementStrategy;
-import org.example.models.BoardDimensions;
+import org.example.models.boardAndPieces.BoardDimensions;
 
 @Data
 public class Configuration {
@@ -13,5 +13,6 @@ public class Configuration {
     private int crocodiles;
     private int mines;
     private int dies;
+    private boolean playTillOneWinner;
     private MovementStrategy ms;
 }

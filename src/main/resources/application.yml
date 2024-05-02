@@ -7,4 +7,5 @@ ladders: 8
 crocodiles: 4
 mines: 4
 dies: 2
+playTillOneWinner: false
 ms: SUM
